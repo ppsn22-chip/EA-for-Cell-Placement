@@ -29,14 +29,11 @@ def get_args():
     args = parser.parse_args()
     return args
 
-
 class individual:
     def __init__(self, pur, eval):
         self.pur = pur
         self.eval = eval
   
-
-
 if __name__ == "__main__":
     args = get_args()
     popsize = args.popsize
@@ -75,11 +72,9 @@ if __name__ == "__main__":
         pop = pop[:popsize]
         print(_, pop[0].eval)
 
-
     if args.save_data:
         csvFile = open(args.save_dir, "w")
         writer = csv.writer(csvFile)
         for item in data:
             writer.writerow(item)
         csvFile.close()
-    
