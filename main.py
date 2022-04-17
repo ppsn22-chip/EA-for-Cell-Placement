@@ -21,7 +21,7 @@ def get_args():
     parser.add_argument(
         '--save_data', default=False, help='whether save intermediate result')
     parser.add_argument(
-        '--netlist_dir', default="n_edges_710.dat", help='directory of netlist')    
+        '--netlist_dir', default="adaptec3.dat", help='directory of netlist')    
     parser.add_argument(
         '--save_dir', default="result.csv", help='directory of saved data')
     parser.add_argument(
