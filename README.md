@@ -1,6 +1,6 @@
 # EA for Chip Placement
 
-It's an open souce implemention for paper **Evolutionary Algorithms Can be Better Than Reinfocement Learning for Cell Placement in Chip Design** for PPSN-22.
+It's an open souce implemention for paper **Evolutionary Algorithms Can be Better Than Reinforcement Learning for Cell Placement in Chip Design** for PPSN-22.
 
 ## Requirements
 
